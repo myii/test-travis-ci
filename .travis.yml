@@ -5,11 +5,16 @@ jobs:
     # Define the release stage that runs semantic-release
     - stage: release
       script:
-        # - npm install semantic-release -D
+        - npm install semantic-release -D
         - npm install @semantic-release/changelog -D
         - npm install @semantic-release/exec -D
         - npm install @semantic-release/git -D
+        - npm install conventional-changelog-angular -D
         # - npm list -g
+        - npm list conventional-changelog-angular
+        - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/grunt-cli/
+        - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/npm/
+        # - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/conventional-changelog-angular/
       deploy:
         provider: script
         skip_cleanup: true
