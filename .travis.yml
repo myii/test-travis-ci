@@ -5,11 +5,11 @@ jobs:
     # Define the release stage that runs semantic-release
     - stage: release
       script:
-        - npm install semantic-release -D
+        # - npm install semantic-release -D
         - npm install @semantic-release/changelog -D
         - npm install @semantic-release/exec -D
         - npm install @semantic-release/git -D
-        - npm list -g
+        # - npm list -g
       deploy:
         provider: script
         skip_cleanup: true
