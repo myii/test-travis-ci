@@ -1,3 +1,15 @@
+## [1.0.9](https://github.com/myii/test-travis-ci/compare/v1.0.8...v1.0.9) (2019-02-19)
+
+
+### Bug Fixes
+
+* arbitrary change after working to check `transform` ([31575ce](https://github.com/myii/test-travis-ci/commit/31575ce))
+
+
+### Code Refactoring
+
+* start change to use `release.config.js` instead ([69d7087](https://github.com/myii/test-travis-ci/commit/69d7087))
+
 # Changelog
 
 ## [1.0.8](https://github.com/myii/test-travis-ci/compare/v1.0.7...v1.0.8) (2019-02-19)
