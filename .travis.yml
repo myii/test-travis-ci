@@ -5,7 +5,7 @@ jobs:
     # Define the release stage that runs semantic-release
     - stage: release
       script:
-        - npm install semantic-release -D
+        # - npm install semantic-release -D
         - npm install @semantic-release/changelog -D
         - npm install @semantic-release/exec -D
         - npm install @semantic-release/git -D
@@ -22,8 +22,8 @@ jobs:
         # - npx --no-install semantic-release
         - npx semantic-release
         # # Still the same but `npx` seems to be ignoring it
-        - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
-        - find / -type f -name writer-opts.js
+        # - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+        # - find / -type f -name writer-opts.js
 
         # # - npm list -g
         # - nvm which current

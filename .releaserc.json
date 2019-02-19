@@ -13,12 +13,7 @@
         {"type": "test", "release": "patch"}
       ]
     }],
-    ["@semantic-release/release-notes-generator", {
-      "preset": "angular",
-      "writerOpts": {
-        "commitsSort": ["subject", "scope"]
-      }
-    }],
+    "@semantic-release/release-notes-generator",
     ["@semantic-release/changelog", {
       "changelogFile": "CHANGELOG.md",
       "changelogTitle": "# Changelog"
