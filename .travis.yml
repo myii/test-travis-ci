@@ -19,6 +19,7 @@ jobs:
         # - npm run semantic-release
         # - npx --no-install semantic-release
         - npx semantic-release
+        # Still the same but `npx` seems to be ignoring it
         - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
 
         # # - npm list -g
