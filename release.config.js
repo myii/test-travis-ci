@@ -19,7 +19,7 @@
 module.exports = {
   extends: './release.config.js',
   branch: 'master',
-  tagFormat: 'V${version}',
+  tagFormat: 'v${version}',
   plugins: [
       // '@semantic-release/commit-analyzer',
       ['@semantic-release/commit-analyzer', {
