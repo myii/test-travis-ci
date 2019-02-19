@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.11](https://github.com/myii/test-travis-ci/compare/v1.0.10...v1.0.11) (2019-02-19)
+
+
+### Documentation
+
+* **changelog:** fix title after modification to `js` ([8a7cc81](https://github.com/myii/test-travis-ci/commit/8a7cc81))
+
 ## [1.0.10](https://github.com/myii/test-travis-ci/compare/v1.0.9...v1.0.10) (2019-02-19)
 
 
