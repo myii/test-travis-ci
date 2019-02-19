@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.0.7](https://github.com/myii/test-travis-ci/compare/v1.0.6...v1.0.7) (2019-02-19)
+
 ## [1.0.6](https://github.com/myii/test-travis-ci/compare/v1.0.5...v1.0.6) (2019-02-19)
 
 
