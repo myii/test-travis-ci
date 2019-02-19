@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.0.13](https://github.com/myii/test-travis-ci/compare/v1.0.12...v1.0.13) (2019-02-19)
+
+
+### Bug Fixes
+
+* return to default tag format after testing ([0ac790e](https://github.com/myii/test-travis-ci/commit/0ac790e))
+
+
+### Build System
+
+* test type with changes to `release-rules.js` and `Vx.x.x` ([e6f5485](https://github.com/myii/test-travis-ci/commit/e6f5485))
+
+
+### Code Refactoring
+
+* add/transfer more options ([06cb54f](https://github.com/myii/test-travis-ci/commit/06cb54f))
+
 ## [1.0.12](https://github.com/myii/test-travis-ci/compare/v1.0.11...v1.0.12) (2019-02-19)
 
 
