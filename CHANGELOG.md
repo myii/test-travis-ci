@@ -19,8 +19,6 @@
 
 * start change to use `release.config.js` instead ([69d7087](https://github.com/myii/test-travis-ci/commit/69d7087))
 
-# Changelog
-
 ## [1.0.8](https://github.com/myii/test-travis-ci/compare/v1.0.7...v1.0.8) (2019-02-19)
 
 
