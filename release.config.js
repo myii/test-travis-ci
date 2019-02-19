@@ -1,9 +1,12 @@
 // Sources:
+// * https://github.com/conventional-changelog/conventional-changelog/issues/317#issuecomment-390104826
 // * https://github.com/semantic-release/semantic-release/issues/575#issuecomment-354110425
+// * https://github.com/semantic-release/semantic-release/blob/649b53087a090c245b77a340d813c2a84316d58e/docs/usage/configuration.md
 // * https://github.com/oclif/semantic-release/blob/master/release.config.js
 // * https://github.com/jy95/torrent-files-library-cli/blob/master/config/release.config.js
 // * https://github.com/semantic-release/apm-config/blob/b5d20caaa2e4055511aa1be3c1f923ecedcb688d/index.js
 // * https://github.com/semantic-release/gitlab-config/blob/332f5c64b672d00f5298d6501311c8a669d0a3c4/index.js
+// * https://github.com/semantic-release/semantic-release/blob/d6d1bc954e5f86fe8036702129f5b9807db81d08/test/fixtures/multi-plugin.js
 // * ...
 // * https://github.com/semantic-release/semantic-release/blob/448a0ff977fda5ad44c96571367f60e6fcdee73a/lib/definitions/plugins.js
 // * https://github.com/semantic-release/commit-analyzer/blob/fc0f98d41b989f5d3314e2e84c3430d0ca615daf/README.md
@@ -14,7 +17,9 @@
 // * ...
 
 module.exports = {
+  extends: './release.config.js',
   branch: 'master',
+  tagFormat: 'V${version}',
   plugins: [
       // '@semantic-release/commit-analyzer',
       ['@semantic-release/commit-analyzer', {
@@ -30,10 +35,13 @@ module.exports = {
       // '@semantic-release/git',
       ['@semantic-release/git', {
         assets: ['CHANGELOG.md'],
-        message: `CHORE(RELEASE): \${nextRelease.version} [skip ci]`,
+        message: `chore(release): \${nextRelease.version} [skip ci]`,
       }],
       '@semantic-release/github',
   ],
+  dryRun: false,
+  ci: true,
+  debug: true,
   // verifyConditions: {},
   // getLastRelease: {},
   // analyzeCommits: {},
