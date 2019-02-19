@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/myii/test-travis-ci/compare/v1.0.5...v1.0.6) (2019-02-19)
+
+
+### Bug Fixes
+
+* check for `writer-opts.js` ([54235f7](https://github.com/myii/test-travis-ci/commit/54235f7))
+
 ## [1.0.5](https://github.com/myii/test-travis-ci/compare/v1.0.4...v1.0.5) (2019-02-19)
 
 
