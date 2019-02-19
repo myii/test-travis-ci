@@ -9,18 +9,21 @@ jobs:
         - npm install @semantic-release/changelog -D
         - npm install @semantic-release/exec -D
         - npm install @semantic-release/git -D
-        - npm install conventional-changelog-angular -D
-        # - npm install https://github.com/Visya/conventional-changelog/archive/patch-1.tar.gz
-        # - find / -type f -name writer-opts.js
-        - wget https://raw.githubusercontent.com/conventional-changelog/conventional-changelog/917d66be0ee7e73b3ce4e82447878c521eac1c05/packages/conventional-changelog-angular/writer-opts.js -O /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
-        - sed -i -e 's:Bug Fixes:Bug and General Fixes:' /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
-        - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+
+        # - npm install conventional-changelog-angular -D
+        # # - npm install https://github.com/Visya/conventional-changelog/archive/patch-1.tar.gz
+        # # - find / -type f -name writer-opts.js
+        # - wget https://raw.githubusercontent.com/conventional-changelog/conventional-changelog/917d66be0ee7e73b3ce4e82447878c521eac1c05/packages/conventional-changelog-angular/writer-opts.js -O /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+        # - sed -i -e 's:Bug Fixes:Bug and General Fixes:' /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+        # - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+
         # - cd /home/travis/build/myii/test-travis-ci/node_modules/semantic-release
         # - npm run semantic-release
         # - npx --no-install semantic-release
         - npx semantic-release
-        # Still the same but `npx` seems to be ignoring it
+        # # Still the same but `npx` seems to be ignoring it
         - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+        - find / -type f -name writer-opts.js
 
         # # - npm list -g
         # - nvm which current
