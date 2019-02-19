@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.12](https://github.com/myii/test-travis-ci/compare/v1.0.11...v1.0.12) (2019-02-19)
+
+
+### Code Refactoring
+
+* move release rules to separate file ([579be9b](https://github.com/myii/test-travis-ci/commit/579be9b))
+
 ## [1.0.11](https://github.com/myii/test-travis-ci/compare/v1.0.10...v1.0.11) (2019-02-19)
 
 
