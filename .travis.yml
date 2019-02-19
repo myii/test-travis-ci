@@ -15,6 +15,11 @@ jobs:
         - wget https://raw.githubusercontent.com/conventional-changelog/conventional-changelog/917d66be0ee7e73b3ce4e82447878c521eac1c05/packages/conventional-changelog-angular/writer-opts.js -O /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
         - sed -i -e 's:Bug Fixes:Bug and General Fixes:' /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
         - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+        # - cd /home/travis/build/myii/test-travis-ci/node_modules/semantic-release
+        # - npm run semantic-release
+        # - npx --no-install semantic-release
+        - npx semantic-release
+        - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
 
         # # - npm list -g
         # - nvm which current
@@ -31,10 +36,12 @@ jobs:
         # #
         # # break the build with this to prevent the commit
         # - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/conventional-changelog-angular/
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script:
-          # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
-          # - nvm install lts/*
-          - npx semantic-release
+      # deploy:
+      #   provider: script
+      #   skip_cleanup: true
+      #   script:
+      #     # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
+      #     # - nvm install lts/*
+      #     # - npx semantic-release
+      #     - cd /home/travis/build/myii/test-travis-ci/node_modules/semantic-release
+      #     - npx --no-install semantic-release
