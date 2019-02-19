@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/myii/test-travis-ci/compare/V1.0.0...V1.0.1) (2019-02-19)
+
+
+### Build System
+
+* test type with changes to `release-rules.js` and `Vx.x.x` ([e6f5485](https://github.com/myii/test-travis-ci/commit/e6f5485))
+
 # 1.0.0 (2019-02-19)
 
 
