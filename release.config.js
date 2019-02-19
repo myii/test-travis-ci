@@ -1,21 +1,45 @@
 // Sources:
+// * https://github.com/semantic-release/semantic-release/issues/575#issuecomment-354110425
+// * https://github.com/oclif/semantic-release/blob/master/release.config.js
+// * https://github.com/jy95/torrent-files-library-cli/blob/master/config/release.config.js
 // * ...
 // * ...
 // * ...
-// * ...
-// * ...
-// * ...
-// * ...
-// * ...
+// * https://github.com/semantic-release/semantic-release/blob/448a0ff977fda5ad44c96571367f60e6fcdee73a/lib/definitions/plugins.js
+// * https://github.com/semantic-release/commit-analyzer/blob/fc0f98d41b989f5d3314e2e84c3430d0ca615daf/README.md
+// * https://github.com/semantic-release/exec/blob/745d0faed7e402695a2b12035328d5c139da6224/index.js#L98
+// * https://github.com/semantic-release/gitlab/blob/43942772d33a681a2f0662f6f3afaf6328e53ab7/lib/definitions/errors.js
+// * https://github.com/semantic-release/github/blob/072b1123107897a06fe096c7c4cbeec27d6c4490/lib/resolve-config.js
+// * https://github.com/semantic-release/release-notes-generator/blob/563cbd5380789bf03cc3bc6b4a325c1f02da590c/lib/hosts-config.js
 // * ...
 
 module.exports = {
   branch: 'master',
   plugins: [
-      '@semantic-release/commit-analyzer',
+      // '@semantic-release/commit-analyzer',
+      ['@semantic-release/commit-analyzer', {
+        preset: 'angular',
+        releaseRules: [
+          {type: 'feat', release: 'minor'},
+          {type: 'fix', release: 'patch'},
+          {type: 'docs', release: 'patch'},
+          {type: 'style', release: 'patch'},
+          {type: 'refactor', release: 'patch'},
+          {type: 'perf', release: 'patch'},
+          {type: 'test', release: 'patch'},
+        ],
+      }],
       '@semantic-release/release-notes-generator',
-      '@semantic-release/changelog',
-      '@semantic-release/git',
+      // '@semantic-release/changelog',
+      ['@semantic-release/changelog', {
+        changelogFile: 'CHANGELOG.md',
+        changelogTitle: '# Changelog',
+      }],
+      // '@semantic-release/git',
+      ['@semantic-release/git', {
+        assets: ['CHANGELOG.md'],
+        message: `CHORE(RELEASE): \${nextRelease.version} [skip ci]`,
+      }],
       '@semantic-release/github',
   ],
   // verifyConditions: {},
