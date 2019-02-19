@@ -13,6 +13,7 @@ jobs:
         # - npm install https://github.com/Visya/conventional-changelog/archive/patch-1.tar.gz
         # - find / -type f -name writer-opts.js
         - wget https://raw.githubusercontent.com/conventional-changelog/conventional-changelog/917d66be0ee7e73b3ce4e82447878c521eac1c05/packages/conventional-changelog-angular/writer-opts.js -O /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+        - sed -i -e 's:Bug Fixes:Bug and General Fixes:' /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
         - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
 
         # # - npm list -g
