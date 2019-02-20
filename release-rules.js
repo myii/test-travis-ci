@@ -9,30 +9,28 @@
 
 // https://github.com/semantic-release/commit-analyzer/blob/master/lib/default-release-types.js
 // 'major', 'premajor', 'minor', 'preminor', 'patch', 'prepatch', 'prerelease'
+// While nice, leave for now since the analyser checks for the `tagFormat` when looking for bump number
+// and doesn't find these `pre...` versions like that (unless there is some regex)
 
 module.exports = [
   {breaking: true, release: 'major'},
-  // {type: 'feat', release: 'minor'},
-  {type: 'feat', release: 'premajor'},
-  // {type: 'fix', release: 'patch'},
-  {type: 'fix', release: 'preminor'},
-  // {type: 'docs', release: 'patch'},
-  {type: 'docs', release: 'prerelease'},
+  {type: 'feat', release: 'minor'},
+  {type: 'fix', release: 'patch'},
+  {type: 'docs', release: 'patch'},
   {type: 'style', release: 'patch'},
-  {type: 'refactor', release: 'prepatch'},
-  // {type: 'perf', release: 'patch'},
-  {type: 'perf', release: 'minor'},
+  {type: 'refactor', release: 'patch'},
+  {type: 'perf', release: 'patch'},
   {type: 'test', release: 'patch'},
 
-  {type: 'build', release: 'premajor'},
-  {type: 'ci', release: 'preminor'},
-  {type: 'chore', release: 'prepatch'},
+  {type: 'build', release: 'patch'},
+  {type: 'ci', release: 'patch'},
+  {type: 'chore', release: 'patch'},
   // {type: 'docs', release: 'patch'},
   // {type: 'feat', release: 'patch'},
   // {type: 'fix', release: 'patch'},
   // {type: 'perf', release: 'patch'},
   // {type: 'refactor', release: 'patch'},
-  {type: 'revert', release: 'prerelease'},
+  {type: 'revert', release: 'patch'},
   // {type: 'style', release: 'patch'},
   // {type: 'test', release: 'patch'},
 ];
