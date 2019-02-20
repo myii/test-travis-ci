@@ -1,5 +1,24 @@
 # Changelog
 
+# [1.1.0](https://github.com/myii/test-travis-ci/compare/v1.0.15...v1.1.0) (2019-02-20)
+
+
+### Bug Fixes
+
+* reset bumps to use non-`pre` options (analyser doesn't work) ([1b9ba59](https://github.com/myii/test-travis-ci/commit/1b9ba59))
+* use defaults config options where possible ([5d52c67](https://github.com/myii/test-travis-ci/commit/5d52c67))
+
+
+### Continuous Integration
+
+* test all available version bumps ([dcfd9e7](https://github.com/myii/test-travis-ci/commit/dcfd9e7))
+* **semantic-release:** fix exact versions for all packages ([f668d4d](https://github.com/myii/test-travis-ci/commit/f668d4d))
+
+
+### Features
+
+* **`FORMULA`:** add the file and all related processing ([b615ee8](https://github.com/myii/test-travis-ci/commit/b615ee8))
+
 # [2.0.0-0](https://github.com/myii/test-travis-ci/compare/v1.0.15...v2.0.0-0) (2019-02-20)
 
 
