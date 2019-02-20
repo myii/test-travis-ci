@@ -35,9 +35,12 @@ module.exports = {
         changelogFile: 'CHANGELOG.md',
         changelogTitle: '# Changelog',
       }],
+      ['@semantic-release/exec', {
+        prepareCmd: 'sh ./update_FORMULA.sh ${nextRelease.version}',
+      }],
       // '@semantic-release/git',
       ['@semantic-release/git', {
-        assets: ['CHANGELOG.md'],
+        assets: ['CHANGELOG.md', 'FORMULA'],
         message: `chore(release): \${nextRelease.version} [skip ci]`,
       }],
       '@semantic-release/github',
