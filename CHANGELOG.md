@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/myii/test-travis-ci/compare/v1.1.2...v1.1.3) (2019-02-20)
+
+
+### Code Refactoring
+
+* **`release-rules`:** rearrange alphabetically and reset bumps ([9216015](https://github.com/myii/test-travis-ci/commit/9216015))
+
 ## [1.1.2](https://github.com/myii/test-travis-ci/compare/v1.1.1...v1.1.2) (2019-02-20)
 
 
