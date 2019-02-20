@@ -7,7 +7,15 @@
 // * https://github.com/semantic-release/apm-config/blob/b5d20caaa2e4055511aa1be3c1f923ecedcb688d/index.js
 // * https://github.com/semantic-release/gitlab-config/blob/332f5c64b672d00f5298d6501311c8a669d0a3c4/index.js
 // * https://github.com/semantic-release/semantic-release/blob/d6d1bc954e5f86fe8036702129f5b9807db81d08/test/fixtures/multi-plugin.js
+// * ...
+// * Options:
+// * ...
+// * ...
+// * ...
+// * ...
+// * Handlebars:
 // * https://github.com/semantic-release/changelog/issues/34#issuecomment-424429104
+// * ...
 // * ...
 // * ...
 // * ...
@@ -20,9 +28,9 @@
 // * ...
 
 module.exports = {
-  extends: './release.config.js',
+  // extends: './release.config.js',
   branch: 'master',
-  tagFormat: 'v${version}',
+  // tagFormat: 'v${version}',
   plugins: [
       // '@semantic-release/commit-analyzer',
       ['@semantic-release/commit-analyzer', {
@@ -41,13 +49,13 @@ module.exports = {
       // '@semantic-release/git',
       ['@semantic-release/git', {
         assets: ['CHANGELOG.md', 'FORMULA'],
-        message: `chore(release): \${nextRelease.version} [skip ci]`,
+        // message: `chore(release): \${nextRelease.version} [skip ci]`,
       }],
       '@semantic-release/github',
   ],
-  dryRun: false,
-  ci: true,
-  debug: true,
+  // dryRun: false,
+  // ci: true,
+  // debug: true,
   // verifyConditions: {},
   // getLastRelease: {},
   // analyzeCommits: {},
@@ -55,12 +63,12 @@ module.exports = {
   generateNotes: {
     preset: 'angular',
     writerOpts: {
-      commitsSort: [
-          // 'header',
-          'subject',
-          'scope',
-      ],
-      ignoreReverted: false,
+      // commitsSort: [
+      //     // 'header',
+      //     'subject',
+      //     'scope',
+      // ],
+      // ignoreReverted: false,
       // Required due to upstream bug preventing all types being displayed.
       // Bug: https://github.com/conventional-changelog/conventional-changelog/issues/317
       // Fix: https://github.com/conventional-changelog/conventional-changelog/pull/410
