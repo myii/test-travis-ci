@@ -5,15 +5,15 @@ jobs:
     # Define the release stage that runs semantic-release
     - stage: release
       script:
-        # - npm install semantic-release@15 -D
-        - npm install @semantic-release/commit-analyzer@6 -D
-        - npm install @semantic-release/release-notes-generator@7 -D
+        # # - npm install semantic-release@15 -D
+        # - npm install @semantic-release/commit-analyzer@6 -D
+        # - npm install @semantic-release/release-notes-generator@7 -D
 
         - npm install @semantic-release/changelog@3 -D
         - npm install @semantic-release/exec@3 -D
         - npm install @semantic-release/git@7 -D
 
-        - npm install @semantic-release/github@5 -D
+        # - npm install @semantic-release/github@5 -D
 
         # - npm install conventional-changelog-angular -D
         # # - npm install https://github.com/Visya/conventional-changelog/archive/patch-1.tar.gz
