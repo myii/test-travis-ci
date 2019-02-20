@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/myii/test-travis-ci/compare/v1.1.3...v1.1.4) (2019-02-20)
+
+
+### Bug Fixes
+
+* **`FORMULA`:** Make `update_FORMULA.sh` executable ([6f9927e](https://github.com/myii/test-travis-ci/commit/6f9927e))
+
 ## [1.1.3](https://github.com/myii/test-travis-ci/compare/v1.1.2...v1.1.3) (2019-02-20)
 
 
