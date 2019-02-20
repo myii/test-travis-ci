@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.14](https://github.com/myii/test-travis-ci/compare/v1.0.13...v1.0.14) (2019-02-20)
+
+
+### Documentation
+
+* **changelog:** remove duplicate content ([eb4c2c4](https://github.com/myii/test-travis-ci/commit/eb4c2c4))
+
 ## [1.0.13](https://github.com/myii/test-travis-ci/compare/v1.0.12...v1.0.13) (2019-02-20)
 
 
