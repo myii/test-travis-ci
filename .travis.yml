@@ -25,7 +25,7 @@ jobs:
         # - cd /home/travis/build/myii/test-travis-ci/node_modules/semantic-release
         # - npm run semantic-release
         # - npx --no-install semantic-release
-        - npx semantic-release
+        # - npx semantic-release
         # # Still the same but `npx` seems to be ignoring it
         # - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
         # - find / -type f -name writer-opts.js
@@ -45,12 +45,10 @@ jobs:
         # #
         # # break the build with this to prevent the commit
         # - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/conventional-changelog-angular/
-      # deploy:
-      #   provider: script
-      #   skip_cleanup: true
-      #   script:
-      #     # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
-      #     # - nvm install lts/*
-      #     # - npx semantic-release
-      #     - cd /home/travis/build/myii/test-travis-ci/node_modules/semantic-release
-      #     - npx --no-install semantic-release
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
+          # - nvm install lts/*
+          - npx semantic-release
