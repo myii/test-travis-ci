@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.1](https://github.com/myii/test-travis-ci/compare/v1.1.0...v1.1.1) (2019-02-20)
+
+
+### Continuous Integration
+
+* **semantic-release:** fix to major versions of packages ([6f9fcb9](https://github.com/myii/test-travis-ci/commit/6f9fcb9))
+
+
+### Documentation
+
+* **changelog:** reset after removing releases/tags ([39fae5d](https://github.com/myii/test-travis-ci/commit/39fae5d))
+
 # [1.1.0](https://github.com/myii/test-travis-ci/compare/v1.0.15...v1.1.0) (2019-02-20)
 
 
