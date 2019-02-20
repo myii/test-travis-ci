@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/myii/test-travis-ci/compare/v1.1.1...v1.1.2) (2019-02-20)
+
+
+### Continuous Integration
+
+* **semantic-release:** try to remove duplicated packages ([20cd33b](https://github.com/myii/test-travis-ci/commit/20cd33b))
+
 ## [1.1.1](https://github.com/myii/test-travis-ci/compare/v1.1.0...v1.1.1) (2019-02-20)
 
 
