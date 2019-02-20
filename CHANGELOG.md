@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.1.0-0](https://github.com/myii/test-travis-ci/compare/v1.0.15...v1.1.0-0) (2019-02-20)
+
+
+### Continuous Integration
+
+* test all available version bumps ([dcfd9e7](https://github.com/myii/test-travis-ci/commit/dcfd9e7))
+
 ## [1.0.15](https://github.com/myii/test-travis-ci/compare/v1.0.14...v1.0.15) (2019-02-20)
 
 
