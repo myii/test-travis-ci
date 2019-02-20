@@ -1,54 +1,70 @@
-language: generic
+language: node_js
 
 jobs:
   include:
-    # Define the release stage that runs semantic-release
     - stage: release
+      node_js: lts/*
       script:
-        # # - npm install semantic-release@15 -D
-        # - npm install @semantic-release/commit-analyzer@6 -D
-        # - npm install @semantic-release/release-notes-generator@7 -D
-
         - npm install @semantic-release/changelog@3 -D
         - npm install @semantic-release/exec@3 -D
         - npm install @semantic-release/git@7 -D
-
-        # - npm install @semantic-release/github@5 -D
-
-        # - npm install conventional-changelog-angular -D
-        # # - npm install https://github.com/Visya/conventional-changelog/archive/patch-1.tar.gz
-        # # - find / -type f -name writer-opts.js
-        # - wget https://raw.githubusercontent.com/conventional-changelog/conventional-changelog/917d66be0ee7e73b3ce4e82447878c521eac1c05/packages/conventional-changelog-angular/writer-opts.js -O /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
-        # - sed -i -e 's:Bug Fixes:Bug and General Fixes:' /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
-        # - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
-
-        # - cd /home/travis/build/myii/test-travis-ci/node_modules/semantic-release
-        # - npm run semantic-release
-        # - npx --no-install semantic-release
-        # - npx semantic-release
-        # # Still the same but `npx` seems to be ignoring it
-        # - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
-        # - find / -type f -name writer-opts.js
-
-        # # - npm list -g
-        # - nvm which current
-        # - npm list conventional-changelog-angular
-        # - ls -al /home/travis/.npm/
-        # - ls -al /usr/lib/
-        # - ls -al /usr/lib/node_modules/
-        # - ls -al /usr/local/lib/
-        # - ls -al /usr/local/lib/node_modules/
-        # # - ls -al /home/travis/node_modules/
-        # # - ls -al /home/travis/node_modules/conventional-changelog-angular/
-        # # - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/grunt-cli/node_modules/.bin/
-        # # - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/npm/node_modules/
-        # #
-        # # break the build with this to prevent the commit
-        # - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/conventional-changelog-angular/
       deploy:
         provider: script
         skip_cleanup: true
         script:
-          # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
-          # - nvm install lts/*
           - npx semantic-release@15
+
+# language: generic
+#
+# jobs:
+#   include:
+#     # Define the release stage that runs semantic-release
+#     - stage: release
+#       script:
+#         # # - npm install semantic-release@15 -D
+#         # - npm install @semantic-release/commit-analyzer@6 -D
+#         # - npm install @semantic-release/release-notes-generator@7 -D
+#
+#         - npm install @semantic-release/changelog@3 -D
+#         - npm install @semantic-release/exec@3 -D
+#         - npm install @semantic-release/git@7 -D
+#
+#         # - npm install @semantic-release/github@5 -D
+#
+#         # - npm install conventional-changelog-angular -D
+#         # # - npm install https://github.com/Visya/conventional-changelog/archive/patch-1.tar.gz
+#         # # - find / -type f -name writer-opts.js
+#         # - wget https://raw.githubusercontent.com/conventional-changelog/conventional-changelog/917d66be0ee7e73b3ce4e82447878c521eac1c05/packages/conventional-changelog-angular/writer-opts.js -O /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+#         # - sed -i -e 's:Bug Fixes:Bug and General Fixes:' /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+#         # - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+#
+#         # - cd /home/travis/build/myii/test-travis-ci/node_modules/semantic-release
+#         # - npm run semantic-release
+#         # - npx --no-install semantic-release
+#         # - npx semantic-release
+#         # # Still the same but `npx` seems to be ignoring it
+#         # - cat /home/travis/build/myii/test-travis-ci/node_modules/conventional-changelog-angular/writer-opts.js
+#         # - find / -type f -name writer-opts.js
+#
+#         # # - npm list -g
+#         # - nvm which current
+#         # - npm list conventional-changelog-angular
+#         # - ls -al /home/travis/.npm/
+#         # - ls -al /usr/lib/
+#         # - ls -al /usr/lib/node_modules/
+#         # - ls -al /usr/local/lib/
+#         # - ls -al /usr/local/lib/node_modules/
+#         # # - ls -al /home/travis/node_modules/
+#         # # - ls -al /home/travis/node_modules/conventional-changelog-angular/
+#         # # - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/grunt-cli/node_modules/.bin/
+#         # # - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/npm/node_modules/
+#         # #
+#         # # break the build with this to prevent the commit
+#         # - ls -al /home/travis/.nvm/versions/node/v8.9.1/lib/node_modules/conventional-changelog-angular/
+#       deploy:
+#         provider: script
+#         skip_cleanup: true
+#         script:
+#           # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
+#           # - nvm install lts/*
+#           - npx semantic-release@15
