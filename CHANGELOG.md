@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.15](https://github.com/myii/test-travis-ci/compare/v1.0.14...v1.0.15) (2019-02-20)
+
+
+### Code Refactoring
+
+* reset `npx` back to `deploy` section ([2c17709](https://github.com/myii/test-travis-ci/commit/2c17709))
+
 ## [1.0.14](https://github.com/myii/test-travis-ci/compare/v1.0.13...v1.0.14) (2019-02-20)
 
 
