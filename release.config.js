@@ -7,6 +7,9 @@
 // * https://github.com/semantic-release/apm-config/blob/b5d20caaa2e4055511aa1be3c1f923ecedcb688d/index.js
 // * https://github.com/semantic-release/gitlab-config/blob/332f5c64b672d00f5298d6501311c8a669d0a3c4/index.js
 // * https://github.com/semantic-release/semantic-release/blob/d6d1bc954e5f86fe8036702129f5b9807db81d08/test/fixtures/multi-plugin.js
+// * https://github.com/semantic-release/changelog/issues/34#issuecomment-424429104
+// * ...
+// * ...
 // * ...
 // * https://github.com/semantic-release/semantic-release/blob/448a0ff977fda5ad44c96571367f60e6fcdee73a/lib/definitions/plugins.js
 // * https://github.com/semantic-release/commit-analyzer/blob/fc0f98d41b989f5d3314e2e84c3430d0ca615daf/README.md
@@ -50,9 +53,14 @@ module.exports = {
     preset: 'angular',
     writerOpts: {
       commitsSort: [
+          // 'header',
           'subject',
           'scope',
       ],
+      ignoreReverted: false,
+      // Required due to upstream bug preventing all types being displayed.
+      // Bug: https://github.com/conventional-changelog/conventional-changelog/issues/317
+      // Fix: https://github.com/conventional-changelog/conventional-changelog/pull/410
       transform: (commit, context) => {
           const issues = []
 
