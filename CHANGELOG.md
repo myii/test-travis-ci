@@ -1,5 +1,17 @@
 # Changelog
 
+# [2.0.0-0](https://github.com/myii/test-travis-ci/compare/v1.0.15...v2.0.0-0) (2019-02-20)
+
+
+### Continuous Integration
+
+* test all available version bumps ([dcfd9e7](https://github.com/myii/test-travis-ci/commit/dcfd9e7))
+
+
+### Features
+
+* **`FORMULA`:** add the file and all related processing ([b615ee8](https://github.com/myii/test-travis-ci/commit/b615ee8))
+
 # [1.1.0-0](https://github.com/myii/test-travis-ci/compare/v1.0.15...v1.1.0-0) (2019-02-20)
 
 
