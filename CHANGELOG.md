@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.5](https://github.com/myii/test-travis-ci/compare/v1.1.4...v1.1.5) (2019-02-24)
+
+
+### Continuous Integration
+
+* **travis:** prevent `release` stage running for PRs ([8be509d](https://github.com/myii/test-travis-ci/commit/8be509d)), closes [/travis-ci.com/saltstack-formulas/template-formula/jobs/180068519#L466](https://github.com//travis-ci.com/saltstack-formulas/template-formula/jobs/180068519/issues/L466) [/github.com/saltstack-formulas/template-formula/pull/42#issuecomment-466446324](https://github.com//github.com/saltstack-formulas/template-formula/pull/42/issues/issuecomment-466446324)
+* **travis:** use `node_js` ([13874d4](https://github.com/myii/test-travis-ci/commit/13874d4))
+
+
+### Documentation
+
+* **readme:** add TOC delimiters and initial introduction ([8931a20](https://github.com/myii/test-travis-ci/commit/8931a20))
+
 ## [1.1.4](https://github.com/myii/test-travis-ci/compare/v1.1.3...v1.1.4) (2019-02-20)
 
 
