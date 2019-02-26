@@ -1,5 +1,17 @@
 # Changelog
 
+# [3.0.0](https://github.com/myii/test-travis-ci/compare/v2.0.0...v3.0.0) (2019-02-26)
+
+
+### Documentation
+
+* **readme:** use this commit to test the breaking change message again ([c94eb61](https://github.com/myii/test-travis-ci/commit/c94eb61))
+
+
+### BREAKING CHANGES
+
+* **readme:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 # [2.0.0](https://github.com/myii/test-travis-ci/compare/v1.1.6...v2.0.0) (2019-02-26)
 
 
