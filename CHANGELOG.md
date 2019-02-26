@@ -1,5 +1,23 @@
 # Changelog
 
+# [2.0.0](https://github.com/myii/test-travis-ci/compare/v1.1.6...v2.0.0) (2019-02-26)
+
+
+### Continuous Integration
+
+* **travis:** clear commented out lines ([3d6521f](https://github.com/myii/test-travis-ci/commit/3d6521f))
+
+
+### Documentation
+
+* **readme:** using this commit to test the breaking change message ([6a91452](https://github.com/myii/test-travis-ci/commit/6a91452))
+
+
+### BREAKING CHANGES
+
+* **readme:** * First breaking change.
+* Second breaking change.
+
 ## [1.1.6](https://github.com/myii/test-travis-ci/compare/v1.1.5...v1.1.6) (2019-02-26)
 
 
