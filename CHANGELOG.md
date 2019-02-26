@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/myii/test-travis-ci/compare/v1.1.5...v1.1.6) (2019-02-26)
+
+
+### Documentation
+
+* **readme:** capture that the Travis badge was leading to an old build ([15a6373](https://github.com/myii/test-travis-ci/commit/15a6373))
+
 ## [1.1.5](https://github.com/myii/test-travis-ci/compare/v1.1.4...v1.1.5) (2019-02-24)
 
 
