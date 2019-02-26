@@ -26,3 +26,6 @@ travis_fold:end:worker_info
 /home/travis/build.sh: line 3: travis_cleanup: command not found
 /home/travis/build.sh: line 4: travis_footer: command not found
 ```
+
+* Turns out that the badge led me to the PR build where I'd already removed the branch!
+* It wasn't taking me to the very latest build for some reason...
