@@ -29,5 +29,3 @@ travis_fold:end:worker_info
 
 * Turns out that the badge led me to the PR build where I'd already removed the branch!
 * It wasn't taking me to the very latest build for some reason...
-
-Testing a breaking change commit message.
