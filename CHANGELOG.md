@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.1](https://github.com/myii/test-travis-ci/compare/v4.1.0...v4.1.1) (2019-02-27)
+
+
+### Documentation
+
+* **readme:** Remove broken characters ([af59e3a](https://github.com/myii/test-travis-ci/commit/af59e3a))
+
 # [4.1.0](https://github.com/myii/test-travis-ci/compare/v4.0.0...v4.1.0) (2019-02-27)
 
 
