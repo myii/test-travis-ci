@@ -1,5 +1,12 @@
 # Changelog
 
+# [4.1.0](https://github.com/myii/test-travis-ci/compare/v4.0.0...v4.1.0) (2019-02-27)
+
+
+### Features
+
+* **semantic:** add `semantic.yml` to force all-commits checking ([8566e3a](https://github.com/myii/test-travis-ci/commit/8566e3a))
+
 # [4.0.0](https://github.com/myii/test-travis-ci/compare/v3.0.0...v4.0.0) (2019-02-26)
 
 
