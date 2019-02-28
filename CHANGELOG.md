@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.2](https://github.com/myii/test-travis-ci/compare/v4.1.1...v4.1.2) (2019-02-28)
+
+
+### Documentation
+
+* **contributing:** create `docs/CONTRIBUTING.rst` ([a73dab2](https://github.com/myii/test-travis-ci/commit/a73dab2))
+
 ## [4.1.1](https://github.com/myii/test-travis-ci/compare/v4.1.0...v4.1.1) (2019-02-27)
 
 
