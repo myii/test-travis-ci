@@ -11,4 +11,4 @@ test-travis-ci
 Introduction
 ------------
 
-Moved to `docs/README.rst` to work with RTD.
+Moved to ``docs/README.rst`` to work with RTD.
