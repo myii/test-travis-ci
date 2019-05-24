@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.3](https://github.com/myii/test-travis-ci/compare/v4.2.2...v4.2.3) (2019-05-24)
+
+
+### Documentation
+
+* **readme:** test `gaocegege/maintainer` PR ([a2eea32](https://github.com/myii/test-travis-ci/commit/a2eea32))
+
 ## [4.2.2](https://github.com/myii/test-travis-ci/compare/v4.2.1...v4.2.2) (2019-05-24)
 
 
