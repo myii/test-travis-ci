@@ -1,5 +1,21 @@
 # Changelog
 
+## [4.1.3](https://github.com/myii/test-travis-ci/compare/v4.1.2...v4.1.3) (2019-05-24)
+
+
+### Continuous Integration
+
+* **travis:** remove `markdown-toc` ([22c9fbe](https://github.com/myii/test-travis-ci/commit/22c9fbe))
+* **travis:** test latest `gaocegege/maintainer` ([ffc4b4a](https://github.com/myii/test-travis-ci/commit/ffc4b4a))
+
+
+### Documentation
+
+* **readme:** create `docs/README.rst` ([0e94a6c](https://github.com/myii/test-travis-ci/commit/0e94a6c))
+* **readme:** fix heading formatting ([32bad1a](https://github.com/myii/test-travis-ci/commit/32bad1a))
+* **readme:** fix inline code formatting ([ce9aad8](https://github.com/myii/test-travis-ci/commit/ce9aad8))
+* **readme:** remove original `README.md` ([105ddc2](https://github.com/myii/test-travis-ci/commit/105ddc2))
+
 ## [4.1.2](https://github.com/myii/test-travis-ci/compare/v4.1.1...v4.1.2) (2019-02-28)
 
 
