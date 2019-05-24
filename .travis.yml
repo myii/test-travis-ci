@@ -22,7 +22,7 @@ jobs:
       script:
         # Update `AUTHORS.md`
         - export MAINTAINER_TOKEN=${GH_TOKEN}
-        - go get github.com/myii/maintainer
+        - go get github.com/gaocegege/maintainer
         - maintainer contributor
 
         # Update Tables of Content in the relevant `.md` files
