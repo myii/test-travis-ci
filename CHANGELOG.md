@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.1](https://github.com/myii/test-travis-ci/compare/v4.2.0...v4.2.1) (2019-05-24)
+
+
+### Reverts
+
+* "ci(travis): test latest `gaocegege/maintainer`" ([e9fb363](https://github.com/myii/test-travis-ci/commit/e9fb363))
+
 # [4.2.0](https://github.com/myii/test-travis-ci/compare/v4.1.3...v4.2.0) (2019-05-24)
 
 
