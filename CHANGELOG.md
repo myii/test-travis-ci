@@ -1,5 +1,12 @@
 # Changelog
 
+# [4.2.0](https://github.com/myii/test-travis-ci/compare/v4.1.3...v4.2.0) (2019-05-24)
+
+
+### Features
+
+* pull in relevant changes from `template-formula` ([a2e3ea4](https://github.com/myii/test-travis-ci/commit/a2e3ea4))
+
 ## [4.1.3](https://github.com/myii/test-travis-ci/compare/v4.1.2...v4.1.3) (2019-05-24)
 
 
