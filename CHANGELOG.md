@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.5](https://github.com/myii/test-travis-ci/compare/v4.2.4...v4.2.5) (2019-09-24)
+
+
+### Documentation
+
+* **issues:** test templates in `.github` directory ([4103111](https://github.com/myii/test-travis-ci/commit/4103111))
+
 ## [4.2.4](https://github.com/myii/test-travis-ci/compare/v4.2.3...v4.2.4) (2019-09-24)
 
 
