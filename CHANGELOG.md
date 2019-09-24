@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.4](https://github.com/myii/test-travis-ci/compare/v4.2.3...v4.2.4) (2019-09-24)
+
+
+### Documentation
+
+* **issues:** provide `Bug report` & `Feature request` templates ([708c9e5](https://github.com/myii/test-travis-ci/commit/708c9e5))
+
 ## [4.2.3](https://github.com/myii/test-travis-ci/compare/v4.2.2...v4.2.3) (2019-05-24)
 
 
