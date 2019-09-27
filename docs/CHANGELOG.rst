@@ -2,6 +2,21 @@
 Changelog
 =========
 
+`4.2.7 <https://github.com/myii/test-travis-ci/compare/v4.2.6...v4.2.7>`_ (2019-09-27)
+------------------------------------------------------------------------------------------
+
+Documentation
+^^^^^^^^^^^^^
+
+
+* **issues:** update ``bug_report`` template (\ `8277f62 <https://github.com/myii/test-travis-ci/commit/8277f62>`_\ )
+
+Reverts
+^^^^^^^
+
+
+* "docs(issues): test templates back in ``docs`` directory" (\ `7a83718 <https://github.com/myii/test-travis-ci/commit/7a83718>`_\ )
+
 `4.2.6 <https://github.com/myii/test-travis-ci/compare/v4.2.5...v4.2.6>`_ (2019-09-24)
 ------------------------------------------------------------------------------------------
 
