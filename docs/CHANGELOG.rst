@@ -2,6 +2,15 @@
 Changelog
 =========
 
+`4.2.8 <https://github.com/myii/test-travis-ci/compare/v4.2.7...v4.2.8>`_ (2019-09-27)
+------------------------------------------------------------------------------------------
+
+Documentation
+^^^^^^^^^^^^^
+
+
+* **issues:** add trailing space to ``title`` in issue templates (\ `1758058 <https://github.com/myii/test-travis-ci/commit/1758058>`_\ )
+
 `4.2.7 <https://github.com/myii/test-travis-ci/compare/v4.2.6...v4.2.7>`_ (2019-09-27)
 ------------------------------------------------------------------------------------------
 
