@@ -20,7 +20,7 @@ Notes:
 
 
 
-### Versions reports (e.g. master & minion)
+### Versions reports (master & minion)
 <!-- Provided by running `salt --versions-report`. Please also mention any differences in master/minion versions. -->
 
 
