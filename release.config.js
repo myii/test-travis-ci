@@ -44,7 +44,7 @@ module.exports = {
         changelogTitle: '# Changelog',
       }],
       ['@semantic-release/exec', {
-        prepareCmd: 'sh ./pre-commit_semantic-release.sh ${nextRelease.version}',
+        prepareCmd: 'sh ./pre-commit_semantic-release.sh ${nextRelease.version} ${env.GH_TOKEN} ${options.branch} ${options.repositoryUrl} ${env} ${cwd} ${options} ${lastRelease} ${nextRelease} ${env.TRAVIS_PULL_REQUEST}',
       }],
       // '@semantic-release/git',
       ['@semantic-release/git', {
