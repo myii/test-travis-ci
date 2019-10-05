@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.2.11](https://github.com/myii/test-travis-ci/compare/v4.2.10...v4.2.11) (2019-10-05)
+
+
+### Code Refactoring
+
+* test sending variables via. `prepareCmd` ([e62fa71](https://github.com/myii/test-travis-ci/commit/e62fa71))
+* test sending variables via. `prepareCmd` ([131ebea](https://github.com/myii/test-travis-ci/commit/131ebea))
+
 ## [4.2.10](https://github.com/myii/test-travis-ci/compare/v4.2.9...v4.2.10) (2019-10-05)
 
 
