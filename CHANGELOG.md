@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.10](https://github.com/myii/test-travis-ci/compare/v4.2.9...v4.2.10) (2019-10-05)
+
+
+### Documentation
+
+* **bug_report:** remove unnecessary `e.g.` ([fa68405](https://github.com/myii/test-travis-ci/commit/fa68405))
+
 ## [4.2.9](https://github.com/myii/test-travis-ci/compare/v4.2.8...v4.2.9) (2019-10-05)
 
 
