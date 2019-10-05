@@ -2,6 +2,15 @@
 Changelog
 =========
 
+`4.2.9 <https://github.com/myii/test-travis-ci/compare/v4.2.8...v4.2.9>`_ (2019-10-05)
+------------------------------------------------------------------------------------------
+
+Documentation
+^^^^^^^^^^^^^
+
+
+* **bug_report:** use sections for better logical ordering (\ `f97eb7e <https://github.com/myii/test-travis-ci/commit/f97eb7e>`_\ )
+
 `4.2.8 <https://github.com/myii/test-travis-ci/compare/v4.2.7...v4.2.8>`_ (2019-09-27)
 ------------------------------------------------------------------------------------------
 
