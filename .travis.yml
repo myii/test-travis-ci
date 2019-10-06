@@ -4,6 +4,8 @@ stages:
     if: branch = master AND type != pull_request
 
 jobs:
+  allow_failures:
+    - stage: commitlint
   include:
     # Define the commitlint stage
     - stage: commitlint
