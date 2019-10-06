@@ -2,6 +2,15 @@
 Changelog
 =========
 
+`4.2.13 <https://github.com/myii/test-travis-ci/compare/v4.2.12...v4.2.13>`_ (2019-10-06)
+---------------------------------------------------------------------------------------------
+
+Code Refactoring
+^^^^^^^^^^^^^^^^
+
+
+* use ``TRAVIS_COMMIT_MESSAGE`` to get PR number (\ `a4e336a <https://github.com/myii/test-travis-ci/commit/a4e336a>`_\ )
+
 `4.2.12 <https://github.com/myii/test-travis-ci/compare/v4.2.11...v4.2.12>`_ (2019-10-05)
 ---------------------------------------------------------------------------------------------
 
