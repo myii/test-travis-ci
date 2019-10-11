@@ -6,6 +6,7 @@ stages:
 jobs:
   allow_failures:
     - stage: commitlint
+  fast_finish: true
   include:
     # Define the commitlint stage
     - stage: commitlint
