@@ -2,6 +2,21 @@
 Changelog
 =========
 
+`4.2.15 <https://github.com/myii/test-travis-ci/compare/v4.2.14...v4.2.15>`_ (2019-10-31)
+---------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **release.config.js:** use full commit hash in commit link (\ `888ae65 <https://github.com/myii/test-travis-ci/commit/888ae65a4dfa396a9a180c256a31f91cde2ff58a>`_\ )
+
+Documentation
+^^^^^^^^^^^^^
+
+
+* **pr:** move PR templates [skip ci] (\ `6970fdf <https://github.com/myii/test-travis-ci/commit/6970fdfd813acc0dbcb8a939a94e14701b758694>`_\ )
+
 `4.2.14 <https://github.com/myii/test-travis-ci/compare/v4.2.13...v4.2.14>`_ (2019-10-11)
 ---------------------------------------------------------------------------------------------
 
