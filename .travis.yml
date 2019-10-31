@@ -14,7 +14,7 @@ jobs:
       before_install: skip
       script:
         - npm install @commitlint/config-conventional -D
-        - npm install @commitlint/travis-cli -D
+                      @commitlint/travis-cli -D
         - commitlint-travis
     # Define the release stage that runs semantic-release
     - stage: release
@@ -29,8 +29,8 @@ jobs:
 
         # Install all dependencies required for `semantic-release`
         - npm install @semantic-release/changelog@3 -D
-        - npm install @semantic-release/exec@3 -D
-        - npm install @semantic-release/git@7 -D
+                      @semantic-release/exec@3 -D
+                      @semantic-release/git@7 -D
       deploy:
         provider: script
         skip_cleanup: true
