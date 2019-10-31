@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.17](https://github.com/myii/test-travis-ci/compare/v4.2.16...v4.2.17) (2019-10-31)
+
+
+### Code Refactoring
+
+* **travis:** use shortened form for `npm install` commands ([aa2a116](https://github.com/myii/test-travis-ci/commit/aa2a1161478a15822223cec9f466d4275522db2c))
+
 ## [4.2.16](https://github.com/myii/test-travis-ci/compare/v4.2.15...v4.2.16) (2019-10-31)
 
 
