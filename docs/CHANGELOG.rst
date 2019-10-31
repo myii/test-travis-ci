@@ -2,6 +2,15 @@
 Changelog
 =========
 
+`4.2.16 <https://github.com/myii/test-travis-ci/compare/v4.2.15...v4.2.16>`_ (2019-10-31)
+---------------------------------------------------------------------------------------------
+
+Code Refactoring
+^^^^^^^^^^^^^^^^
+
+
+* **travis:** combine ``npm install`` into one command (\ `4c596cd <https://github.com/myii/test-travis-ci/commit/4c596cdaae5f652919d6d9af260cf4b1078180cb>`_\ )
+
 `4.2.15 <https://github.com/myii/test-travis-ci/compare/v4.2.14...v4.2.15>`_ (2019-10-31)
 ---------------------------------------------------------------------------------------------
 
