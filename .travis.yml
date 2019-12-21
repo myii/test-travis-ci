@@ -39,4 +39,4 @@ jobs:
         skip_cleanup: true
         script:
           # Run `semantic-release`
-          - npx semantic-release@15
+          - npx semantic-release@15.13
