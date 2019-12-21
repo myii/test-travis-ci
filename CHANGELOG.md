@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.2.18](https://github.com/myii/test-travis-ci/compare/v4.2.17...v4.2.18) (2019-12-21)
+
+
+### Bug Fixes
+
+* **travis:** fix `yamllint` error ([c7cbc77](https://github.com/myii/test-travis-ci/commit/c7cbc770147aa07253dfd6534f83f355bc81d299))
+* **travis:** restrict `semantic-release` version as workaround ([b2163f1](https://github.com/myii/test-travis-ci/commit/b2163f1dc78ea792f5b67de2ec8d7648120318b6))
+
 ## [4.2.17](https://github.com/myii/test-travis-ci/compare/v4.2.16...v4.2.17) (2019-10-31)
 
 
