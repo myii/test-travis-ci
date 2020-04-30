@@ -2,7 +2,7 @@
 
 # Owner(s) for everything in the repo, unless a later match takes precedence
 # FILE PATTERN                       OWNER(S)
-*                                    @saltstack-formulas/wg
+*                                    @myii
 
 # Owner(s) for files related to `semantic-release`
 # FILE PATTERN                       OWNER(S)
