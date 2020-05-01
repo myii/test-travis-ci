@@ -1,6 +1,8 @@
 ---
 # you can use glob pattern
-'*':
+'*.yml':
+  - myii
+'*.js':
   - myii
 # # you can set multiple reviewers
 # '.travis.yml':
