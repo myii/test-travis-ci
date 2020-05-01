@@ -1,5 +1,18 @@
 # Changelog
 
+## [4.2.21](https://github.com/myii/test-travis-ci/compare/v4.2.20...v4.2.21) (2020-05-01)
+
+
+### Bug Fixes
+
+* **pull-review:** fix setttings [skip ci] ([cf75905](https://github.com/myii/test-travis-ci/commit/cf75905db0d731a7f4e8ec97cab1cfe3d3d4d797))
+
+
+### Continuous Integration
+
+* **travis:** test pull-review-action [skip ci] ([c11a5ab](https://github.com/myii/test-travis-ci/commit/c11a5ab7cee7ce60bb55019f4029256f77c785da))
+* test auto-assign ([557142e](https://github.com/myii/test-travis-ci/commit/557142e22497e1f208fa6b02f199e6ab3bc113fc))
+
 ## [4.2.20](https://github.com/myii/test-travis-ci/compare/v4.2.19...v4.2.20) (2020-05-01)
 
 
