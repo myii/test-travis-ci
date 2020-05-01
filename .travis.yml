@@ -5,7 +5,6 @@ stages:
   - commitlint
   - name: release
     if: branch = master AND type != pull_request
-
 jobs:
   allow_failures:
     - stage: commitlint
