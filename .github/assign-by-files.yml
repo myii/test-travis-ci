@@ -2,7 +2,7 @@
 # you can use glob pattern
 '*':
   - myii
-# you can set multiple reviewers
-'.travis.yml':
-  - saltstack-formulas/ssf
-  - myii
+# # you can set multiple reviewers
+# '.travis.yml':
+#   - saltstack-formulas/ssf
+#   - myii
