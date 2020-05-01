@@ -3,6 +3,6 @@
 '*':
   - myii
 # you can set multiple reviewers
-'.travis.yml:
+'.travis.yml':
   - saltstack-formulas/ssf
   - myii
