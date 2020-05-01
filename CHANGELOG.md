@@ -1,5 +1,20 @@
 # Changelog
 
+## [4.2.19](https://github.com/myii/test-travis-ci/compare/v4.2.18...v4.2.19) (2020-05-01)
+
+
+### Bug Fixes
+
+* **codeowners:** use someone with write permissions to this repo [skip ci] ([4caceb0](https://github.com/myii/test-travis-ci/commit/4caceb08422a136243057449f27cb80787a063f1))
+
+
+### Continuous Integration
+
+* **gemfile.lock:** add initial version ([dfe55be](https://github.com/myii/test-travis-ci/commit/dfe55be94a79b0ecd379d0c47cb0c8ee1c84ed51))
+* **travis:** make change to test auto-assign ([b842b41](https://github.com/myii/test-travis-ci/commit/b842b41cbe7a988a6a7674c2142b76cbcc1138c0))
+* **travis:** remove blank line at end to test auto-assign GH action ([210296f](https://github.com/myii/test-travis-ci/commit/210296f3fc98a1b123023f5bdefe20634a51a279))
+* **travis:** test latest version of `semantic-release` ([3bd74c2](https://github.com/myii/test-travis-ci/commit/3bd74c2e0f23f4847d5667bfe64498efc7452ea1))
+
 ## [4.2.18](https://github.com/myii/test-travis-ci/compare/v4.2.17...v4.2.18) (2019-12-21)
 
 
