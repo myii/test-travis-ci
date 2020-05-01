@@ -1,5 +1,7 @@
 ---
 # you can use glob pattern
+'*':
+  - myii
 '*.yml':
   - myii
 '*.js':
