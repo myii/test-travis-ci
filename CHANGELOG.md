@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.2.20](https://github.com/myii/test-travis-ci/compare/v4.2.19...v4.2.20) (2020-05-01)
+
+
+### Bug Fixes
+
+* **auto-assign:** fix YAML issues [skip ci] ([455b5be](https://github.com/myii/test-travis-ci/commit/455b5bef535140b9b9f05e9cdd2116ab01da6cf1))
+
+
+### Continuous Integration
+
+* **travis:** test auto-assign ([0fc9f65](https://github.com/myii/test-travis-ci/commit/0fc9f65219f492bf8ac3715688efdc31faca4e4f))
+
 ## [4.2.19](https://github.com/myii/test-travis-ci/compare/v4.2.18...v4.2.19) (2020-05-01)
 
 
