@@ -39,3 +39,13 @@ jobs:
         script:
           # Run `semantic-release`
           - npx semantic-release@15.14
+
+notifications:
+  webhooks:
+    urls:
+      - https://saltstack-formulas.zulipchat.com/api/v1/external/travis?api_key=HsIq3o5QmLxdnVCKF9is0FUIpkpAY79P&stream=CI&topic=initial%20tests&ignore_pull_requests=false
+    on_success: always  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: always    # options: [always|never|change] default: always
+    on_cancel: always   # options: [always|never|change] default: always
+    on_error: always    # options: [always|never|change] default: always
