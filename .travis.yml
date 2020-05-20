@@ -43,8 +43,9 @@ jobs:
 # Notification options: `always`, `never` or `change`
 notifications:
   webhooks:
+    if: 'repo = myii/test-travis-ci'
     urls:
-      - ${ZULIP_URL}
+      - https://saltstack-formulas.zulipchat.com/api/v1/external/travis?api_key=HsIq3o5QmLxdnVCKF9is0FUIpkpAY79P&stream=CI&topic=myii%2Ftest-travis-ci&ignore_pull_requests=false
     on_success: always  # default: always
     on_failure: always  # default: always
     on_start: always    # default: never
