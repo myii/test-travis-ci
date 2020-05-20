@@ -43,7 +43,7 @@ jobs:
 notifications:
   webhooks:
     urls:
-      - https://saltstack-formulas.zulipchat.com/api/v1/external/travis?api_key=HsIq3o5QmLxdnVCKF9is0FUIpkpAY79P&stream=CI&topic=test-travis-ci&ignore_pull_requests=false
+      - 'https://saltstack-formulas.zulipchat.com/api/v1/external/travis?api_key=HsIq3o5QmLxdnVCKF9is0FUIpkpAY79P&stream=CI&topic=${TRAVIS_REPO_SLUG}&ignore_pull_requests=false'
     # options: `always`, `never` or `change`
     on_success: always  # default: always
     on_failure: always  # default: always
