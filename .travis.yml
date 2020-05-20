@@ -40,11 +40,11 @@ jobs:
           # Run `semantic-release`
           - npx semantic-release@15.14
 
+# Notification options: `always`, `never` or `change`
 notifications:
   webhooks:
     urls:
       - secure: DGXURYpS/ZYD18DphV8fOQ5mdqbEczHm+l3s5uGr7DcEDGdvjTTBnEoXU+XlDyn51/kuQwNqiXnnFhXatdDHXrNH2Zxkld3kC1f/PdYuwci74+VhSOpvRBqgcNZo9eWYz9LWmmaYQNxusG8SPth8pEobVTZBZQp+ehK1yNp2xBTbrQKhors980bogJCunT7boWQVnO3wZOZUGBxWlJdU9tfshO8Kbay08yixDr+LMd009Svv7+ApgrbOcavAeUdAIY22ANfgtVAILi/IkaaR7QMFm6bv5RXOG5mWfreToHCnca29eq+O5oa4DWnUraraKi2pta0mDtngPCGieBgkiv3R49b4jyJiTgcrH5g2Pph/35ic8Pnt/hW1KKwQ0y4Lhgb95nrwpnDBuvxolhNfTVG+Le8hZANk5LaxJqYYkc9BeCRA7wiZoA48mYevUwy0lxAERDqRE9lisnzi8mWdQFrD391UX9MTajFFto8wlokmvqc8UrGS0QGFMPmXCmH1x3BI+7PYupBTybRJKe7xNWSzXIWeJXiZpf3nlAdd2Bj8EmtutRwLFnGRLqLoLzMnQ7Mfh6yU+QcMGFW3TjXVr7RMaDmEvu4Trj8tozj3BjfdhwguysbVqIDwpfjNhXD1QLFycLkUNOFiD2NLpq1eWb0ro6wqMeRHST5k1zFfx3M=
-    # options: `always`, `never` or `change`
     on_success: always  # default: always
     on_failure: always  # default: always
     on_start: always    # default: never
