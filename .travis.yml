@@ -50,9 +50,8 @@ jobs:
         # * https://docs.travis-ci.com/user/build-config-validation
         # Deprecated `skip_cleanup` can now be avoided, `cleanup: false` is by default
         edge: true
-        script:
-          # Run `semantic-release`
-          - npx semantic-release@15.14
+        # Run `semantic-release`
+        script: npx semantic-release@15.14
 
 # Notification options: `always`, `never` or `change`
 notifications:
